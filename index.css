@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black !important;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999;
+}
+
+.banner{
+    margin: 75px 0;
+}
+
+.items{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner_text img{
+    width: 64px;
+    height: 64px;
+    display: block;
+    border-radius: 50%;
+}
+
+.banner_vid{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.banner_vid .vid{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.other_items img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 70px 0;
+}
+.card{
+    margin-bottom: 10px;
+}
+.content{
+    transform: translateY(100px);
+}
+.banner{
+    margin-top: 2px;
+}
+.card-aq-bg{
+    background-color: aquamarine;
+}
+.card-pink-bg{
+    background-color: pink;
+}
+.li{
+    padding-left: 10px;
+    text-decoration: none;
+    margin-top: 10px !important;
+    font-size: 20px;
+    color:gray;
+    padding-bottom: 20px !important;
+}
+.side-btn{
+    border: 1px solid white !important;
+    border-radius: 60px !important;
+    margin-top: 10px;
+    text-decoration: none;
+    width:130px;
+    height: 30px;
+}
+.child-sidebar{
+    transform: translate(10px,130px);
+}
+.btn-child1{
+    color:black;
+    width:20px !important;
+    height:20px !important;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+}
+.btn-child1 p{
+    margin-top: -5px !important;
+}
+.btn-child2{
+ color:white !important;
+ margin-left: 20px;
+ text-align: center;
+}
+.r-side{
+    align-items: center;
+}
+.r-side-child{
+    width:300px;
+     justify-content: space-between;
+     align-items: center;
+     background-color: gray;
+     border-radius: .5rem;
+     box-shadow: 1px 1px 1px rgb(132, 128, 128);
+     padding: 1px 2px;
+     margin-top: 5px;
+}
+.r-child2{
+    margin-left: 10px !important;
+}
+.r-child1{
+    margin-top: 5px !important;
+}
+.price{
+    color:white;
+}
+.r-side2{
+   width:300px;
+   height: 400px;
+   background-color: gray;
+   border-radius: .5rem;
+   margin-top: 20px;
+   color:white;
+   padding: 5px 5px;
+}
+.r-side2-child{
+    justify-content: space-between;
+}
